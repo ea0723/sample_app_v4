@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe "Authentication" do
   subject { page }
-  let(:submit){ click_button "Sign In" }
+  #let(:submit){ click_button "Sign In" }
 
   describe "signin" do
     before { visit signin_path }
